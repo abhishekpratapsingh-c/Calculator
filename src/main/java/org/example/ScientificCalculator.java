@@ -10,8 +10,8 @@ public class ScientificCalculator {
 
         do {
             System.out.println("Enter your choice");
-            System.out.println("1. Square Root");
-            System.out.println("2. Factorial");
+            System.out.println("1. Square Root (√x)");
+            System.out.println("2. Factorial (x!)");
             System.out.println("3. Natural Log (ln(x))");
             System.out.println("4. Power (x^b)");
             System.out.println("5. Exit");
