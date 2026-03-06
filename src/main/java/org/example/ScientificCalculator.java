@@ -29,7 +29,7 @@ public class ScientificCalculator {
                     System.out.println("Result " + factorial(n));
                     break;
                 case 3:
-                    System.out.print("Enter number ");
+                    System.out.print("Enter number  ");
                     double l = scanner.nextDouble();
                     System.out.println("Result " + Math.log(l));
                     break;
