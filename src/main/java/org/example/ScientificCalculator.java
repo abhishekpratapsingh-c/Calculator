@@ -34,7 +34,7 @@ public class ScientificCalculator {
                     System.out.println("Result " + Math.log(l));
                     break;
                 case 4:
-                    System.out.print("Enter base ");
+                    System.out.print("Enter base  ");
                     double base = scanner.nextDouble();
                     System.out.print("Enter exponent ");
                     double exp = scanner.nextDouble();
