@@ -24,7 +24,7 @@ public class ScientificCalculator {
                     System.out.println("Result " + Math.sqrt(x));
                     break;
                 case 2:
-                    System.out.print("Enter integer  ");
+                    System.out.print("Enter integer ");
                     int n = scanner.nextInt();
                     System.out.println("Result " + factorial(n));
                     break;
