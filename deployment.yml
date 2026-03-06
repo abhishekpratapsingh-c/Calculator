@@ -8,4 +8,4 @@
       shell: docker pull mt2025008/calculator:v1
 
     - name: Run the new container
-      shell: docker run -d --name calculator-app -p 8081:8080 mt2025008/calculator:v1
+      shell: docker run -it -a --name calculator-app mt2025008/calculator:v1
