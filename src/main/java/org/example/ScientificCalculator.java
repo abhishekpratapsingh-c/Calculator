@@ -17,9 +17,11 @@ public class ScientificCalculator {
             System.out.println("5. Exit");
             choice = scanner.nextInt();
 
+
+
             switch (choice) {
                 case 1:
-                    System.out.print("Enter number ");
+                    System.out.print("Enter number  ");
                     double x = scanner.nextDouble();
                     System.out.println("Result " + Math.sqrt(x));
                     break;
