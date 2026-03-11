@@ -9,13 +9,13 @@ public class ScientificCalculatorTest {
 
     @Test
     public void testSquareRoot() {
-        assertEquals(4.0, Math.sqrt(16), DELTA);
+        assertEquals(4.0, ScientificCalculator.sqrt(16), DELTA);
     }
 
     @Test
     public void testFactorial() {
-        assertEquals(120, ScientificCalculator.factorial(5));
-        assertEquals(1, ScientificCalculator.factorial(0));
+        assertEquals(120.0, ScientificCalculator.factorial(5), DELTA);
+        assertEquals(1.0, ScientificCalculator.factorial(0), DELTA);
     }
 
     @Test
@@ -26,5 +26,15 @@ public class ScientificCalculatorTest {
     @Test
     public void testPower() {
         assertEquals(8.0, Math.pow(2, 3), DELTA);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testNegativeFactorialThrowsException() {
+        ScientificCalculator.factorial(-5);
+    }
+
+    @Test
+    public void testNegativeSquareRootReturnsNaN() {
+        assertTrue(Double.isNaN(ScientificCalculator.sqrt(-16)));
     }
 }

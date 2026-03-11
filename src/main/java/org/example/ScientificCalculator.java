@@ -18,7 +18,6 @@ public class ScientificCalculator {
             choice = scanner.nextInt();
 
 
-
             switch (choice) {
                 case 1:
                     System.out.print("Enter number  ");
