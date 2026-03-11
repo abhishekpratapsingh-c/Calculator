@@ -9,7 +9,7 @@ public class ScientificCalculatorTest {
 
     @Test
     public void testSquareRoot() {
-        assertEquals(4.0, ScientificCalculator.sqrt(16), DELTA);
+        assertEquals(4.0, ScientificCalculator.sqrt(16.0), DELTA);
     }
 
     @Test
@@ -35,6 +35,6 @@ public class ScientificCalculatorTest {
 
     @Test
     public void testNegativeSquareRootReturnsNaN() {
-        assertTrue(Double.isNaN(ScientificCalculator.sqrt(-16)));
+        assertTrue(Double.isNaN(ScientificCalculator.sqrt(-16.0)));
     }
 }
