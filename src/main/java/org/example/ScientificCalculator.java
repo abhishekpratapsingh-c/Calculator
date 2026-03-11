@@ -36,7 +36,7 @@ public class ScientificCalculator {
                     System.out.println("Result " + Math.log(l));
                     break;
                 case 4:
-                    System.out.print("Enter base  ");
+                    System.out.print("Enter base   ");
                     double base = scanner.nextDouble();
                     System.out.print("Enter exponent ");
                     double exp = scanner.nextDouble();
@@ -45,6 +45,7 @@ public class ScientificCalculator {
             }
         } while (choice != 5);
     }
+
 
     public static long factorial(int n) {
         if (n < 0) return -1;
